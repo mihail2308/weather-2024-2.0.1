@@ -81,6 +81,6 @@ function renderWeatherData(data) {
 	};
 
 	if (fileNames[data.main]) {
-		img.src = `./img/weather/${fileNames[data.main]}.png`;
+		img.src = `./${fileNames[data.main]}.png`;
 	}
 }
